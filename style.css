@@ -9,44 +9,53 @@ header {
   text-align: center;
 }
 .navlist {
-  justify-content: space-around;
+  justify-content: flex-end;
   flex-direction: row;
+  font-size: 25px;
 }
 
 #pandafacts {
   flex-direction: column;
+  font-family: Arial;
+  text-align: center;
+  background-color: lightgreen;
 }
 
 #pandafood {
   flex-direction: column;
   font-family: Arial;
-  text-align: right;
+  text-align: center;
+  background-color: lightgreen;
 }
 
 .bambooPanda {
   width: 30%;
   height: 30%;
+  justify-content: left;
 }
 
-#pandahabitat {
+#habitat {
   flex-direction: column;
   font-family: Arial;
-  text-align: left;
+  text-align: center;
+  background-color: lightgreen;
 }
 
 .pandaHabitat {
   width: 30%;
   height: 30%;
+  justify-content: right;
 }
 
 #sponser {
   flex-direction: column;
   font-family: Arial;
   text-align: center;
+  background-color: lightgreen;
 }
 
-pandaHelp {
-  width: 10%;
-  height: 10%;
-  align-items: flex-end;
+.pandaHelp {
+  width: 30%;
+  height: 30%;
+  justify-content: left;
 }
