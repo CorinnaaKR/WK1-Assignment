@@ -1,5 +1,16 @@
-.nav-list {
-  justify-content: space-between;
+main {
+  font-family: Arial, sans-serif;
+  background-color: linear-gradient(to bottom, black, green);
+  padding: 20px;
+}
+
+header {
+  background-color: lightgreen;
+  padding: 10px;
+  text-align: center;
+}
+.navlist {
+  justify-content: space-around;
   flex-direction: row;
 }
 
@@ -9,15 +20,15 @@
 
 #pandafood {
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
 
 #pandahabitat {
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
 
 #sponser {
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
