@@ -5,7 +5,23 @@
   padding: 0;
 }
 
-ul {
+.nav-list {
   justify-content: space-between;
   flex-direction: row;
+}
+
+#facts {
+  flex-direction: column;
+}
+
+#food {
+  flex-direction: column;
+}
+
+#habitat {
+  flex-direction: column;
+}
+
+#sponser {
+  flex-direction: column;
 }
