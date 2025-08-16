@@ -13,11 +13,6 @@ header {
   flex-direction: row;
 }
 
-.bambooPanda {
-  width: 100%;
-  height: auto;
-}
-
 #pandafacts {
   flex-direction: column;
 }
@@ -25,14 +20,33 @@ header {
 #pandafood {
   flex-direction: column;
   font-family: Arial;
+  text-align: right;
+}
+
+.bambooPanda {
+  width: 30%;
+  height: 30%;
 }
 
 #pandahabitat {
   flex-direction: column;
   font-family: Arial;
+  text-align: left;
+}
+
+.pandaHabitat {
+  width: 30%;
+  height: 30%;
 }
 
 #sponser {
   flex-direction: column;
   font-family: Arial;
+  text-align: center;
+}
+
+pandaHelp {
+  width: 10%;
+  height: 10%;
+  align-items: flex-end;
 }
