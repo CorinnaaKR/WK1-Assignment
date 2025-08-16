@@ -1,7 +1,6 @@
 main {
   font-family: Arial, sans-serif;
   background-color: linear-gradient(to bottom, black, green);
-  padding: 20px;
 }
 
 header {
@@ -12,6 +11,11 @@ header {
 .navlist {
   justify-content: space-around;
   flex-direction: row;
+}
+
+.bambooPanda {
+  width: 100%;
+  height: auto;
 }
 
 #pandafacts {
