@@ -1,27 +1,32 @@
-main {
-  font-family: Arial, sans-serif;
-  background-color: linear-gradient(to bottom, black, green);
-}
-
 header {
   background-color: lightgreen;
   padding: 10px;
   text-align: center;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: linear-gradient(to bottom, black, green);
+}
+
 .navlist {
-  justify-content: flex-end;
+  display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  text-align: right;
   font-size: 25px;
 }
 
-#pandafacts {
+.pandafacts {
   flex-direction: column;
   font-family: Arial;
   text-align: center;
   background-color: lightgreen;
 }
 
-#pandafood {
+.pandafood {
   flex-direction: column;
   font-family: Arial;
   text-align: center;
@@ -34,7 +39,7 @@ header {
   justify-content: left;
 }
 
-#habitat {
+.habitat {
   flex-direction: column;
   font-family: Arial;
   text-align: center;
@@ -47,10 +52,10 @@ header {
   justify-content: right;
 }
 
-#sponser {
+.sponser {
   flex-direction: column;
   font-family: Arial;
-  text-align: center;
+  text-align: inline-block;
   background-color: lightgreen;
 }
 
