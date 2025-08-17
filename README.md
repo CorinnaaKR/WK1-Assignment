@@ -16,3 +16,4 @@ Beginning to feel like I've massively over complicated my css elements trying to
 Asked for help in discord and Will helped me format the sections by putting them in div classes. We had some trouble because the footer went rogue. Ended up putting the footer in the section.
 Finally got everything just about where I want it. Doesn't look how I imagined it to when I first visualised how I wanted it to but it's as close to what I want as i think I can get for the time that I have.
 Did manage to add a hover effect over the buttons which I'm really pleased about!
+Got finickity about the way the writing looked in one of the boxes, OCD dictates it must be changed. Forgive me deadline overseerer.
