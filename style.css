@@ -14,7 +14,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: linear-gradient(180deg, vertical, black, white);
+  height: 200px;
+  background-color: green;
+  background-image: radial-gradient(green, white, black);
 }
 
 .navlist {
@@ -32,6 +34,16 @@ h2 {
   text-align: center;
   color: black;
 }
+
+.playful {
+  width: 30%;
+  height: 30%;
+  justify-content: right;
+  margin-right: 50px;
+  align-content: flex-end;
+  float: right;
+}
+
 .pandafacts {
   font-size: 20px;
   font-family: Arial;
@@ -40,6 +52,7 @@ h2 {
   float: right;
   margin-right: 50px;
   padding: 10px;
+  border: inset;
 }
 
 .bambooPanda {
@@ -47,14 +60,19 @@ h2 {
   height: 30%;
   justify-content: left;
   margin-left: 50px;
+  float: left;
+  margin-top: 50px;
+  margin-right: 20px;
 }
 
 .food {
   font-family: Arial;
+  font-size: 20px;
   text-align: center;
   background-color: lightgreen;
-  float: left;
-  margin-top: 30px;
+  margin: 50px, 50px, 50px, 50px;
+  border: inset;
+  padding: 10px;
 }
 
 .habitat {
@@ -63,6 +81,9 @@ h2 {
   justify-content: left;
   background-color: lightgreen;
   float: left;
+  margin-right: 40px;
+  border: inset;
+  padding: 10px;
 }
 
 .pandaHabitat {
@@ -78,6 +99,7 @@ h2 {
   text-align: center;
   background-color: lightgreen;
   float: right;
+  border: inset;
   padding: 10px;
 }
 
@@ -94,4 +116,6 @@ footer {
   background-color: lightgreen;
   text-align: center;
   padding: 5px;
+  justify-content: baseline;
+  border: dotted;
 }
