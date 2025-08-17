@@ -4,11 +4,17 @@ header {
   text-align: center;
 }
 
+h1 {
+  font-size: 40px;
+  font-family: Arial;
+  color: darkgreen;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: linear-gradient(to bottom, black, green);
+  background-color: linear-gradient(180deg, vertical, black, white);
 }
 
 .navlist {
@@ -19,48 +25,73 @@ body {
   font-size: 25px;
 }
 
-.pandafacts {
-  flex-direction: column;
+h2 {
+  font-size: 30px;
+  color: darkgreen;
   font-family: Arial;
   text-align: center;
-  background-color: lightgreen;
+  color: black;
 }
-
-.pandafood {
-  flex-direction: column;
+.pandafacts {
+  font-size: 20px;
   font-family: Arial;
   text-align: center;
   background-color: lightgreen;
+  float: right;
+  margin-right: 50px;
+  padding: 10px;
 }
 
 .bambooPanda {
   width: 30%;
   height: 30%;
   justify-content: left;
+  margin-left: 50px;
+}
+
+.food {
+  font-family: Arial;
+  text-align: center;
+  background-color: lightgreen;
+  float: left;
+  margin-top: 30px;
 }
 
 .habitat {
+  font-family: Arial;
+  text-align: center;
+  justify-content: left;
+  background-color: lightgreen;
+  float: left;
+}
+
+.pandaHabitat {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-left: 20px;
+}
+
+.help {
   flex-direction: column;
   font-family: Arial;
   text-align: center;
   background-color: lightgreen;
-}
-
-.pandaHabitat {
-  width: 30%;
-  height: 30%;
-  justify-content: right;
-}
-
-.sponser {
-  flex-direction: column;
-  font-family: Arial;
-  text-align: inline-block;
-  background-color: lightgreen;
+  float: right;
+  padding: 10px;
 }
 
 .pandaHelp {
   width: 30%;
   height: 30%;
   justify-content: left;
+  float: left;
+  margin-left: 25px;
+  align-items: flex-end;
+}
+
+footer {
+  background-color: lightgreen;
+  text-align: center;
+  padding: 5px;
 }
